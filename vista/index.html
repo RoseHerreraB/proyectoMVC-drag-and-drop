@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,19 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
-	<div class="contenedor">
+
+	<div class="contenedor" width="10000">
+
 		<div class="contenedor-lista">
-			<h1>Drag and Drop con Javascript</h1>
+			<div>
+				<h1 class="titulo-lista1">Grado 8A </h1>
+			</div>
+
 
 			<div class="lista" id="lista">
+
 
 				<!-- ? Persona #1 -->
 				<div class="persona" data-id="1">
@@ -33,7 +41,7 @@
 						<p class="dato">carlos@gmail.com</p>
 					</div>
 				</div>
-				
+
 				<!-- ? Persona #2 -->
 				<div class="persona" data-id="2">
 					<div class="foto">
@@ -91,10 +99,92 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+			<div>
+				<h1 class="titulo-lista1">Grado 8B </h1>
+			</div>
 
-	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
-	<script src="js/main.js"></script>
+			<div class="lista" id="lista2">
+
+				<!-- ? Persona #1 -->
+				<div class="persona" data-id="1b">
+					<div class="foto">
+						<img src="img/1.png" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Nombre</p>
+						<p class="dato">Carlos Arturo</p>
+					</div>
+					<div class="edad">
+						<p class="label">Edad</p>
+						<p class="dato">24</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">carlos@gmail.com</p>
+					</div>
+				</div>
+
+				<!-- ? Persona #2 -->
+				<div class="persona" data-id="2b">
+					<div class="foto">
+						<img src="img/2.png" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Nombre</p>
+						<p class="dato">Alejandro</p>
+					</div>
+					<div class="edad">
+						<p class="label">Edad</p>
+						<p class="dato">25</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">alejandro@gmail.com</p>
+					</div>
+				</div>
+
+				<!--?Persona #3-->
+				<div class="persona" data-id="3b">
+					<div class="foto">
+						<img src="img/3.png" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Nombre</p>
+						<p class="dato">Stephanie</p>
+					</div>
+					<div class="edad">
+						<p class="label">Edad</p>
+						<p class="dato">20</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">stephanie@gmail.com</p>
+					</div>
+				</div>
+
+				<!-- ?Persona #4-->
+				<div class="persona" data-id="4b">
+					<div class="foto">
+						<img src="img/4.png" alt="">
+					</div>
+					<div class="nombre">
+						<p class="label">Nombre</p>
+						<p class="dato">Mike</p>
+					</div>
+					<div class="edad">
+						<p class="label">Edad</p>
+						<p class="dato">18</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">mike@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+		<script src="js/main.js"></script>
 </body>
+
 </html>
